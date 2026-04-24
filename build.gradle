@@ -37,8 +37,8 @@ dependencies {
     implementation 'com.querydsl:querydsl-jpa:5.0.0:jakarta'                 // Querydsl 동적 쿼리 작성
     annotationProcessor 'com.querydsl:querydsl-apt:5.0.0:jakarta'            // Querydsl QClass 자동 생성
 
-    implementation 'org.springframework.boot:spring-boot-starter-security'   // 로그인, 인증, 권한 관리
-    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'   // Thymeleaf에서 Security 사용
+    //implementation 'org.springframework.boot:spring-boot-starter-security'   // 로그인, 인증, 권한 관리
+    //implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'   // Thymeleaf에서 Security 사용
 }
 
 tasks.named('test') {
